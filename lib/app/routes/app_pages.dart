@@ -15,6 +15,7 @@ class AppPages {
   AppPages._();
 
   static const INITIAL = Routes.NEWS;
+  static const WEATHER = Routes.WEATHER;
 
   static final routes = [
     GetPage(

@@ -13,7 +13,7 @@ class BmiView extends GetView<BmiController> {
         title: const Text('BmiView'),
         centerTitle: true,
       ),
-      body: Center(
+      body: const Center(
         child: Text(
           'BmiView is working',
           style: TextStyle(fontSize: 20),
